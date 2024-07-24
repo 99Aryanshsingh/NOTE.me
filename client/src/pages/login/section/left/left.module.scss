@@ -1,0 +1,32 @@
+.left{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    // border: 1px solid blue;
+
+    img{
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        h1{
+            line-height: 45px;
+            font-size: var(--fs-xxl);
+            font-weight: var(--fw-bold);
+        }
+
+        p{
+            font-size: var(--fs-lg);
+            color: var(--grey);
+        }
+    }
+}
+

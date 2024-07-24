@@ -1,0 +1,41 @@
+:root {
+  // Font sizes
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 18px;
+  --fs-xl: 22px;
+  --fs-xxl: 24px;
+  --fs-xxxl: 28px;
+  --fs-brand: 48px;
+  --fs-greet:34px;
+
+  // Font Weight
+  --fw-light: 400;
+  --fw-normal: 500;
+  --fw-medium: 550;
+  --fw-bold: 600;
+
+  // Border Radius
+  --br-sm: 5px;
+
+  // colors
+  --grey: #808080;
+  --light-grey: #a8a8b3;
+  --black: #3c3d43;
+  --white: #ffffff;
+  --rose: #fdbaa3;
+  --red: #f7685c;
+  --green: #30c58d;
+  --cream: #fffdfa;
+  --cream-light: rgb(253,186,163,40%);
+}
+
+.light {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.dark {
+  background-color: var(--black);
+  color: var(--white);
+}

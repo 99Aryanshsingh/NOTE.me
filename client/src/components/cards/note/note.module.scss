@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    padding: 15px;
+    grid-template-rows: auto 25px;
+    border-radius: 10px;
+    background-color: rgb(251, 235, 149,0.4);
+
+    .content{
+    p{
+        display: -webkit-box;
+        font-size: var(--fs-md);
+        font-weight: var(--fw-medium);
+        line-height: 25px;
+        overflow: hidden;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+        color: #3c3d43;
+    }
+
+    .expanded{
+        display: block;
+    }
+
+    .textarea{
+        height: 100%;
+        background-color: transparent;
+        
+    }
+    button{
+        background-color: transparent;
+        color: var(--grey);
+        line-height: 30px;
+        cursor: pointer;
+        text-transform: capitalize;
+    }
+}
+
+    .footer{
+        display: flex;
+        align-items: center;
+        font-size: var(--fs-sm);
+        color: var(--grey);
+
+        .saveBtn{
+            width: auto;
+            padding: 9px;
+            background-color:rgb(241, 192, 133);
+            margin-left: auto;
+
+        }
+    }
+}
